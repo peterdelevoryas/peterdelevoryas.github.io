@@ -1,0 +1,13 @@
+# The URL the site will be built for
+base_url = "https://peterdelevoryas.github.io"
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = true
+
+[markdown]
+highlight_code = true
+
+[extra]
+codeblock = true
+enable_search = true
