@@ -1,0 +1,108 @@
+body {
+  background-color: #121212;
+  color: #bbbbbb; font-family: monospace;
+  font-size: 14px;
+}
+
+.w {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+}
+
+pre, code {
+  --red: #f7768e;
+  --orange: #ff9e64;
+  --yellow: #e0af68;
+  --light-green: #9ece6a;
+  --green: #73daca;
+  --aqua: #2ac3de;
+  --teal: #1abc9c;
+  --turquoise: #89ddff;
+  --light-cyan: #b4f9f8;
+  --cyan: #7dcfff;
+  --blue: #7aa2f7;
+  --purple: #9d7cd8;
+  --magenta: #bb9af7;
+  --comment: #565f89;
+  --black: #414868;
+
+  background-color: #24283b;
+  border-radius: 8px;
+  color: #a9b1d6;
+  display: block;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+code {
+  padding: 1rem;
+}
+
+.z-comment {
+  color: var(--comment);
+}
+
+.z-storage.z-type.z-struct {
+  color: var(--purple);
+}
+
+.z-entity.z-name.z-struct {
+  color: var(--aqua);
+}
+
+.z-function.z-name {
+  color: var(--blue);
+}
+
+.z-meta.z-annotation {
+  color: var(--cyan);
+}
+
+.z-string.z-quoted.z-double {
+  color: var(--light-green);
+}
+
+.z-meta.z-path {
+  color: var(--cyan);
+}
+
+.z-keyword.z-other {
+  color: var(--cyan);
+}
+
+.z-punctuation.z-section.z-block {
+  color: var(--cyan);
+}
+
+.z-storage.z-type.z-impl {
+  color: var(--purple);
+}
+
+.z-variable.z-other.z-member {
+  color: var(--green);
+}
+
+.z-punctuation.z-separator {
+  color: var(--teal);
+}
+
+.z-storage.z-type {
+  color: var(--aqua);
+}
+
+.z-entity.z-name.z-impl {
+  color: var(--aqua);
+}
+
+.z-keyword.z-operator {
+  color: var(--cyan);
+}
+
+.z-storage.z-modifier {
+  color: var(--purple);
+}
+
+.z-variable.z-parameter {
+  color: var(--red);
+}

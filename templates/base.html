@@ -3,6 +3,9 @@
 <head>
   <meta charset="utf-8">
   <title>pjd's blog</title>
+  {% block css %}
+  <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}"/>
+  {% endblock css %}
 </head>
 <body>
   <section class="section">
