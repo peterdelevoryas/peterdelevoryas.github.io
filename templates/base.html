@@ -2,17 +2,21 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>pjd's blog</title>
-  {% block css %}
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Peter Delevoryas</title>
   <link rel="stylesheet" href="{{ get_url(path='style.css', trailing_slash=false) | safe }}"/>
-  {% endblock css %}
 </head>
 <body>
-  <section class="section">
-    <div class="container">
-      {% block content %}
-      {% endblock %}
-    </div>
-  </section>
+  <div id="content">
+    {% block content %}
+    {% endblock %}
+  </div>
+  <div id="sidebar">
+    <h2>Links</h2>
+    <ul>
+      <li><a href="mailto:peter@pjd.dev">peter@pjd.dev</a></li>
+      <li><a href="https://github.com/peterdelevoryas">GitHub</a></li>
+    </ul>
+  </div>
 </body>
 </html>

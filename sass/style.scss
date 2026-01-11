@@ -1,108 +1,76 @@
 body {
-  background-color: #121212;
-  color: #bbbbbb; font-family: monospace;
-  font-size: 14px;
+  margin: 5ex 10ex;
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: #000;
+  background: #fff;
 }
 
-.w {
-  max-width: 640px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
+#content {
+  float: left;
+  max-width: 65ch;
+  margin-right: 5ch;
 }
 
-pre, code {
-  --red: #f7768e;
-  --orange: #ff9e64;
-  --yellow: #e0af68;
-  --light-green: #9ece6a;
-  --green: #73daca;
-  --aqua: #2ac3de;
-  --teal: #1abc9c;
-  --turquoise: #89ddff;
-  --light-cyan: #b4f9f8;
-  --cyan: #7dcfff;
-  --blue: #7aa2f7;
-  --purple: #9d7cd8;
-  --magenta: #bb9af7;
-  --comment: #565f89;
-  --black: #414868;
+#sidebar {
+  float: left;
+  max-width: 20ch;
+}
 
-  background-color: #24283b;
-  border-radius: 8px;
-  color: #a9b1d6;
-  display: block;
-  overflow-x: auto;
-  white-space: pre-wrap;
+h1 {
+  font-weight: normal;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 100%;
+  margin-bottom: 0;
+}
+
+a {
+  color: #06c;
+}
+
+a:visited {
+  color: #60c;
+}
+
+ul {
+  padding-left: 1.5em;
+  margin-top: 0.5em;
+}
+
+li {
+  margin-bottom: 0.3em;
+}
+
+tt, code, pre {
+  font-family: monospace;
+  background: #f5f5f5;
 }
 
 code {
-  padding: 1rem;
+  padding: 0.2em 0.4em;
 }
 
-.z-comment {
-  color: var(--comment);
+pre {
+  padding: 1em;
+  overflow-x: auto;
 }
 
-.z-storage.z-type.z-struct {
-  color: var(--purple);
-}
+@media (max-width: 800px) {
+  body {
+    margin: 2ex 3ex;
+  }
 
-.z-entity.z-name.z-struct {
-  color: var(--aqua);
-}
+  #content, #sidebar {
+    float: none;
+    max-width: 100%;
+    margin-right: 0;
+  }
 
-.z-function.z-name {
-  color: var(--blue);
-}
-
-.z-meta.z-annotation {
-  color: var(--cyan);
-}
-
-.z-string.z-quoted.z-double {
-  color: var(--light-green);
-}
-
-.z-meta.z-path {
-  color: var(--cyan);
-}
-
-.z-keyword.z-other {
-  color: var(--cyan);
-}
-
-.z-punctuation.z-section.z-block {
-  color: var(--cyan);
-}
-
-.z-storage.z-type.z-impl {
-  color: var(--purple);
-}
-
-.z-variable.z-other.z-member {
-  color: var(--green);
-}
-
-.z-punctuation.z-separator {
-  color: var(--teal);
-}
-
-.z-storage.z-type {
-  color: var(--aqua);
-}
-
-.z-entity.z-name.z-impl {
-  color: var(--aqua);
-}
-
-.z-keyword.z-operator {
-  color: var(--cyan);
-}
-
-.z-storage.z-modifier {
-  color: var(--purple);
-}
-
-.z-variable.z-parameter {
-  color: var(--red);
+  #sidebar {
+    margin-top: 3em;
+  }
 }
