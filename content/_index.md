@@ -5,12 +5,13 @@ template = "index.html"
 
 ## Work Experience
 
-**Meta Platforms** - Software Engineer (Dec 2022-Present)
-- ASIC Platform Software Foundation team
-- DevX and CI work for MTIA (Meta's training/inference accelerator)
-
-**Meta Platforms** - Software Engineer (June 2021-Dec 2022)
-- Contributed to OpenBMC and QEMU projects
+**Meta Platforms** - Software Engineer (June 2021-Present)
+- MTIA (Meta's AI training and inference accelerator) systems software
+  - Userspace driver
+  - Firmware
+  - Simulation (QEMU)
+  - Build system and continuous integration (remote execution)
+- OpenBMC firmware
 
 **Arista Networks** - Software Engineer (May 2018-June 2021)
 - Developed software-defined networking features for Broadcom StrataDNX ASICs
