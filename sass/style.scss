@@ -1,21 +1,21 @@
 body {
-  margin: 5ex 10ex;
   font-family: sans-serif;
-  font-size: 100%;
-  line-height: 1.5;
-  color: #000;
-  background: #fff;
+  margin: 5ex 10ex;
+}
+
+tt, pre {
+  font-family: WebKitWorkaround, monospace;
 }
 
 #content {
   float: left;
-  max-width: 65ch;
-  margin-right: 5ch;
+  max-width: 65ex;
+  margin-right: 5ex;
 }
 
 #sidebar {
   float: left;
-  max-width: 20ch;
+  max-width: 20ex;
 }
 
 h1 {
@@ -26,51 +26,4 @@ h1 {
 h2 {
   font-size: 100%;
   margin-bottom: 0;
-}
-
-a {
-  color: #06c;
-}
-
-a:visited {
-  color: #60c;
-}
-
-ul {
-  padding-left: 1.5em;
-  margin-top: 0.5em;
-}
-
-li {
-  margin-bottom: 0.3em;
-}
-
-tt, code, pre {
-  font-family: monospace;
-  background: #f5f5f5;
-}
-
-code {
-  padding: 0.2em 0.4em;
-}
-
-pre {
-  padding: 1em;
-  overflow-x: auto;
-}
-
-@media (max-width: 800px) {
-  body {
-    margin: 2ex 3ex;
-  }
-
-  #content, #sidebar {
-    float: none;
-    max-width: 100%;
-    margin-right: 0;
-  }
-
-  #sidebar {
-    margin-top: 3em;
-  }
 }
