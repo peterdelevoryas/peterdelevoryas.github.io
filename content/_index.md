@@ -28,7 +28,7 @@ template = "index.html"
 
 ## Side Projects
 
-- **Mylang:** LLVM-based compiler for custom language (Rust)
+- **Ono:** LLVM-based compiler for custom language (Rust)
 - **Cranelift:** Contributed to instruction legalization in this open-source code generator
 - **LLVM Fork:** Modified Clang to support Python syntax integration with C
 
