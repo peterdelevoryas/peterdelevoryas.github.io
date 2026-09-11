@@ -6,6 +6,9 @@ template = "index.html"
 ## Work Experience
 
 **Meta Platforms** - Software Engineer (June 2021-Present)
+- Muse (Meta's personal AI agent) infrastructure
+  - Live updates to running agents across the VM fleet: hourly pushes without interrupting 70% of active users and 99.2% of all users
+  - Userspace vhost-user network device (Rust): dynamic crash restart with no VM restart, MAC learning redesign, TLS stream buffering fixes
 - MTIA (Meta's AI training and inference accelerator) systems software
   - Userspace driver
   - Firmware
@@ -28,6 +31,7 @@ template = "index.html"
 
 ## Side Projects
 
+- **Cloud Hypervisor:** Upstreamed dynamic reconnection of vhost-user network devices after backend crashes
 - **Ono:** LLVM-based compiler for custom language (Rust)
 - **Cranelift:** Contributed to instruction legalization in this open-source code generator
 - **LLVM Fork:** Modified Clang to support Python syntax integration with C
