@@ -1,5 +1,10 @@
 import { next } from '@vercel/functions';
 
+// Declared locally rather than pulling in @types/node: Vercel prunes
+// devDependencies before transpiling, so a `types: ["node"]` tsconfig entry
+// fails to resolve during the build.
+declare const process: { env: Record<string, string | undefined> };
+
 // Gate /resume behind per-person access tokens.
 //
 // Tokens live in the RESUME_TOKENS env var as a comma-separated list of
@@ -10,6 +15,8 @@ import { next } from '@vercel/functions';
 
 export const config = {
   matcher: ['/resume', '/resume/:path*'],
+  // Edge is deprecated for routing middleware; Node.js is the supported runtime.
+  runtime: 'nodejs',
 };
 
 const COOKIE = 'resume_access';
