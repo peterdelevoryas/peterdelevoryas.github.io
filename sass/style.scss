@@ -3,6 +3,14 @@ body {
   margin: 5ex 10ex;
 }
 
+// 10ex of side margin costs over 40% of a 375px phone screen. Narrow viewports
+// get a small fixed gutter instead so the text can use the width.
+@media (max-width: 40em) {
+  body {
+    margin: 2ex 1rem;
+  }
+}
+
 tt, pre {
   font-family: WebKitWorkaround, monospace;
 }
