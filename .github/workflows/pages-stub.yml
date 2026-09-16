@@ -1,0 +1,39 @@
+# GitHub Pages cannot be disabled for a <username>.github.io repository, and the
+# site itself now lives on Vercel. This workflow overwrites whatever Pages last
+# published with a bare redirect stub, so no resume content remains reachable
+# through GitHub's servers - including via a Host: pjd.dev request aimed at
+# GitHub's IPs, which would otherwise bypass the access gate entirely.
+name: Publish Pages redirect stub
+
+on:
+  push:
+    branches: ["main"]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload stub only
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '.github/pages-stub'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
