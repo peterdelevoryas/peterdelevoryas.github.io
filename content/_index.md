@@ -3,7 +3,7 @@ title = "Peter Delevoryas"
 template = "index.html"
 +++
 
-*Infrastructure & Systems Software Engineer — Menlo Park, CA* · [peter@pjd.dev](mailto:peter@pjd.dev) · [github.com/peterdelevoryas](https://github.com/peterdelevoryas)
+*Menlo Park, CA* · [peter@pjd.dev](mailto:peter@pjd.dev) · [github.com/peterdelevoryas](https://github.com/peterdelevoryas)
 
 Systems software engineer with 8+ years building Linux, virtualization, networking, and AI infrastructure.
 
