@@ -7,4 +7,4 @@ template = "index.html"
 
 Systems software engineer with 8+ years building Linux, virtualization, networking, and AI infrastructure.
 
-Resume available on request — [email me](mailto:peter@pjd.dev) and I'll send you a link.
+Resume available on request — email me and I'll send you a link.

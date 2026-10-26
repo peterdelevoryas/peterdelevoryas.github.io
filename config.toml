@@ -1,4 +1,6 @@
 base_url = "https://pjd.dev"
+title = "Peter Delevoryas"
+description = "Peter Delevoryas, systems software engineer: Linux, virtualization, networking, and AI infrastructure."
 compile_sass = true
 build_search_index = false
 generate_sitemap = false
