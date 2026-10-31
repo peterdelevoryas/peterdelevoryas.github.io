@@ -3,7 +3,7 @@ title = "Resume"
 template = "resume.html"
 +++
 
-*Infrastructure & Systems Software Engineer — Menlo Park, CA* · [peter@pjd.dev](mailto:peter@pjd.dev) · [github.com/peterdelevoryas](https://github.com/peterdelevoryas)
+*Infrastructure & Systems Software Engineer — Menlo Park, CA* · [james@pjd.dev](mailto:james@pjd.dev) · [github.com/jamesdelevoryas](https://github.com/jamesdelevoryas)
 
 Systems software engineer with 8+ years building Linux, virtualization, networking, and AI infrastructure, most recently the VM platform behind Muse, Meta's personal AI agent. Focused on the boundary between host software, virtual machines, accelerators, and device interfaces, and on taking systems from architecture through production operations.
 

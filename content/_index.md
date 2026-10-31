@@ -1,9 +1,9 @@
 +++
-title = "Peter Delevoryas"
+title = "James Delevoryas"
 template = "index.html"
 +++
 
-*Menlo Park, CA* · [peter@pjd.dev](mailto:peter@pjd.dev) · [github.com/peterdelevoryas](https://github.com/peterdelevoryas)
+*Menlo Park, CA* · [james@pjd.dev](mailto:james@pjd.dev) · [github.com/jamesdelevoryas](https://github.com/jamesdelevoryas)
 
 Systems software engineer with 8+ years building Linux, virtualization, networking, and AI infrastructure.
 
