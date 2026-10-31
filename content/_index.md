@@ -1,5 +1,5 @@
 +++
-title = "Peter Delevoryas"
+title = "James Delevoryas"
 template = "index.html"
 +++
 
